@@ -7,4 +7,4 @@ cd kipstart
 
 sudo chmod +x kipstart.sh
 
-
+sudo ./kipstart.sh
