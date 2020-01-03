@@ -9,4 +9,4 @@ echo 'alias pip=pip3' >> ~/.bashrc
 source ~/.bashrc
 
 # Discord
-pip3 intall discord.py
+pip3 install discord.py
