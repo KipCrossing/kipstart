@@ -7,7 +7,8 @@ apt-get install terminator -y
 apt-get install git -y
 apt-get install chromium -y
 apt-get install python3-pip -y
-apt-get install wget
+sudo apt-get install gparted -y
+apt-get install wget -y
 
 echo 'alias python=python3' >> ~/.bashrc
 echo 'alias pip=pip3' >> ~/.bashrc
@@ -41,6 +42,4 @@ apm install file-icons
 apm install atom-ide-terminal
 
 # Discord
-wget -O discord-0.0.1.deb https://discordapp.com/api/download?platform=linux&format=deb
-sudo dpkg -i discord-0.0.1.deb
-apt --fix-broken install -y
+pip3 intall discord.py
